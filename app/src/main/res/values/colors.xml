@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cinza">#29303a</color>
+    <color name="azul">#1b585a</color>
+    <color name="azul_bic">#FF3700B3</color>
+    <color name="azul_piscina">#FF03DAC5</color>
+    <color name="verde">#FF018786</color>
+    <color name="preto">#FF000000</color>
+    <color name="branco">#FFFFFFFF</color>
+</resources>

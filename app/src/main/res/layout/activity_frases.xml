@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrasesActivity"
+    android:orientation="vertical"
+    android:background="@color/cinza"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/mundonerd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRASES"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/frases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Frases"
+        android:textColorHint="@color/azul_bic"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/respFrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frase"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/frasesMoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Frase Motivacional"
+        android:textColorHint="@color/azul_bic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/respFrasesMoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frase Motivacional"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+ </LinearLayout>

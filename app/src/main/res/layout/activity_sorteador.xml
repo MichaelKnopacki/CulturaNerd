@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SorteadorActivity"
+    android:orientation="vertical"
+    android:background="@color/cinza"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/mundonerd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SORTEADOR"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnDez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 a 10"
+        android:textColorHint="@color/azul_bic"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="15dp"
+        android:onClick="dez"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/respDez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número Sorteado"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnCem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 a 100"
+        android:textColorHint="@color/azul_bic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="16dp"
+        android:onClick="cem"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/respCem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número Sorteado"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnMil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 a 1000"
+        android:textColorHint="@color/azul_bic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="16dp"
+        android:onClick="mil"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/respMil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número Sorteado"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnDezM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 a 10000"
+        android:onClick="dezM"
+        android:textColorHint="@color/azul_bic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/respDezM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número Sorteado"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical"
+    android:background="@color/cinza"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/mundonerd"/>
+
+    <Button
+        android:id="@+id/Sorteador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sorteador"
+        android:onClick="Sorteador"
+        android:textColorHint="@color/azul_bic"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/Dados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dados"
+        android:onClick="Dados"
+        android:textColorHint="@color/azul_bic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/Frases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Frases"
+        android:onClick="Frases"
+        android:textColorHint="@color/azul_bic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="16dp"/>
+
+</LinearLayout>

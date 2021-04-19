@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DadosActivity"
+    android:orientation="vertical"
+    android:background="@color/cinza"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/mundonerd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DADOS"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnSeis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 a 6"
+        android:textColorHint="@color/azul_bic"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/respSeis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número Sorteado"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnDoze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 a 12"
+        android:textColorHint="@color/azul_bic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/respDoze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número Sorteado"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnVinte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 a 20"
+        android:textColorHint="@color/azul_bic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/respVinte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número Sorteado"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnCen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 a 100"
+        android:textColorHint="@color/azul_bic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btg_custom"
+        app:backgroundTint="@null"
+        android:padding="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/respCen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número Sorteado"
+        android:textColor="@color/azul_piscina"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
+
